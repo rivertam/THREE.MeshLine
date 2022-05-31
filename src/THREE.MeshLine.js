@@ -372,6 +372,7 @@
 
   THREE.ShaderChunk['meshline_vert'] = [
     '',
+    '#include <common>',
     THREE.ShaderChunk.logdepthbuf_pars_vertex,
     THREE.ShaderChunk.fog_pars_vertex,
     '',
